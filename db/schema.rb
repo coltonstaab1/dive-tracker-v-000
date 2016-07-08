@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160708172319) do
+ActiveRecord::Schema.define(version: 20160708175127) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -50,8 +50,9 @@ ActiveRecord::Schema.define(version: 20160708172319) do
     t.integer  "dive_number"
     t.string   "dive_letter"
     t.string   "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+    t.float    "degree_of_difficulty"
   end
 
   create_table "dives", force: :cascade do |t|
