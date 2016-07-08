@@ -7,6 +7,10 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
+User.create(email: "colton@yale.edu", password: "yalebulldogs")
+User.create(email: "rachel@princeton.edu", password: "princetontigers")
+User.create(email: "paige@harvard.edu", password: "harvardcrimson")
+
 Team.create(name: "Yale Bulldogs", hometown: "New Haven, CT")
 Team.create(name: "Princeton Tiger", hometown: "Princeton, NJ")
 Team.create(name: "Harvard Crimson", hometown: "Cambridge, MA")
