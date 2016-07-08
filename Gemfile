@@ -13,6 +13,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-google'
 gem 'devise'
+gem 'activeadmin', github: 'activeadmin'
 
 group :development, :test do
   gem 'byebug'
